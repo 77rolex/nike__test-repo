@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Futura XBlkCn BT';
+    src: local('Futura Extra Black Condensed BT'), local('FuturaBT-ExtraBlackCondensed'),
+        url('../fonts/FuturaBT-ExtraBlackCondensed.woff2') format('woff2'),
+        url('../fonts/FuturaBT-ExtraBlackCondensed.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Hv BT';
+    src: local('Futura Hv BT Heavy'), local('FuturaBT-Heavy'),
+        url('../fonts/FuturaBT-Heavy.woff2') format('woff2'),
+        url('../fonts/FuturaBT-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura LtCn BT';
+    src: local('Futura LtCn BT Light'), local('FuturaBT-LightCondensed'),
+        url('../fonts/FuturaBT-LightCondensed.woff2') format('woff2'),
+        url('../fonts/FuturaBT-LightCondensed.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Bk BT';
+    src: local('Futura Book BT'), local('FuturaBT-Book'),
+        url('../fonts/FuturaBT-Book.woff2') format('woff2'),
+        url('../fonts/FuturaBT-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Md BT';
+    src: local('Futura Bold BT'), local('FuturaBT-Bold'),
+        url('../fonts/FuturaBT-Bold.woff2') format('woff2'),
+        url('../fonts/FuturaBT-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: local('Futura-Black Bold'), local('Futura-Black-Bold'),
+        url('../fonts/Futura-Black-Bold.woff2') format('woff2'),
+        url('../fonts/Futura-Black-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+

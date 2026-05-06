@@ -1,0 +1,248 @@
+.footer__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    padding: 0 80px;
+}
+/* -------------------------- */
+.footer__top {
+    width: 100%;
+
+    line-height: 19px;
+    text-transform: capitalize;
+}
+
+.footer__top-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    padding: 57px 0;
+}
+
+.footer__top-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+}
+
+.footer__top-item img{
+    width: 16px;
+}
+
+.footer__top-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer__top-text p:first-child {
+    font-family: "Futura Hv BT";
+}
+/* -------------------------- */
+.footer__main {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 72px 0 80px;
+    width: 100%;
+    height: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+
+    height: 100%;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 56px;
+    max-width: 399px;
+    margin-bottom: 88px;
+    background: transparent;
+    border: 1px solid var(--general-text);
+    border-radius: 80px;
+}
+
+.form div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.form p {
+    font-family: "Futura XBlkCn BT", sans-serif;
+    letter-spacing: 3px;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 64px;
+    text-transform: capitalize;
+
+    margin-bottom: 32px;
+}
+
+.form input {
+    line-height: 24px;
+    text-transform: capitalize;
+    font-size: 16px;
+    text-align: center;
+
+    background-color: transparent;
+    width: max-content;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+.form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    line-height: 24px;
+    font-weight: bold;
+    font-size: 16px;
+
+    background: var(--general-text);
+    color: black;
+    border-radius: 80px;
+    padding: 12px 40px;
+    width: 100%;
+    height: 100%;
+    max-width: 146px;
+}
+
+.footer__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 55px 50px;
+}
+
+.footer__grid div:nth-child(-n+3) p {
+    margin-bottom: 24px;
+}
+
+.footer__grid div p {
+    margin-bottom: 16px;
+}
+
+.footer__grid ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer__grid p {
+    font-family: "Futura XBlkCn BT", sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.footer__grid a {
+    font-family: Futura LtCn BT;
+    font-style: Light;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.footer__grid a{
+    position: relative;
+}
+
+.footer__grid a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -18px;
+
+    width: 100%;
+    height: 60%;
+    background: radial-gradient(50.00% 50.00% at 50% 50%, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 100%);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.footer__grid a:hover::before {
+    opacity: 1;
+}
+
+.grid__help {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column: 3;
+}
+/* --------------------------- */
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 31px 0;
+    width: 100%;
+}
+
+.footer__bottom-copy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9.33px;
+
+    font-family: "Futura Bk BT", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.footer__bottom-copy img {
+    width: 13.33px;
+    height: 13.33px;
+}
+
+.footer__bottom-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 44px;
+}
+
+.footer__bottom-item a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.footer__bottom-item a::before {
+    content: "";
+    position: absolute;
+    left: -17px;
+    bottom: -18px;
+
+    width: 50px;
+    height: 60%;
+    background: radial-gradient(50.00% 50.00% at 50% 50%, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 100%);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.footer__bottom-item a:hover::before {
+    opacity: 1;
+}

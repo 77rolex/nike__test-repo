@@ -1,0 +1,157 @@
+@import "./global.css";
+/* -------------------------- */
+.header {
+    margin-top: 2px;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 46px;
+
+    position: relative;
+}
+
+.header__red-line {
+    position: absolute;
+    top: -2px;
+    left: 56px;
+
+    width: 97px;
+    height: 6px;
+    background: var(--red);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    width: 400px;
+}
+
+.burger-icon {
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    width: 48px;
+    height: 12px;
+
+    position: relative;
+}
+
+.burger-icon span,
+.burger-icon span::before,
+.burger-icon span::after {
+    background: var(--general-text);
+    width: 40px;
+    height: 2px;
+}
+
+.burger-icon span::before,
+.burger-icon span::after {
+    content: "";
+    position: absolute;
+}
+
+.burger-icon span::before {
+    top: 0;
+}
+
+.burger-icon span::after {
+    bottom: 0;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.nav__item {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.nav__link {
+    display: block;
+
+    padding: 0 10px;
+    white-space: nowrap;
+
+    position: relative;
+}
+
+.nav__link::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -18px;
+
+    width: 100%;
+    height: 60%;
+    background: radial-gradient(50.00% 50.00% at 50% 50%, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 100%);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.nav__link:hover::before {
+    opacity: 1;
+}
+
+.header__logo {
+    position: absolute;
+    left: calc(50% - 35px);
+
+    width: 100%;
+    height: 100%;
+    max-width: 80px;
+    max-height: 31.56px;
+    cursor: pointer;
+}
+
+.user-instruments__list {
+    display: flex;
+    gap: 40px;
+}
+
+.user-instruments__item {
+    display: flex;
+    align-items: center;
+
+    position: relative;
+}
+
+.user-instruments__item::before {
+    content: "";
+    position: absolute;
+    left: -17px;
+    bottom: -18px;
+
+    width: 50px;
+    height: 60%;
+    background: radial-gradient(50.00% 50.00% at 50% 50%, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 100%);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.user-instruments__item:hover::before {
+    opacity: 1;
+}
+
+.user-instruments__button {
+    display: flex;
+    align-items: center;
+}
+
+.user-instruments__button img {
+    width: 17.49px;
+    height: 17.49px;
+}
